@@ -3,7 +3,7 @@
 -- create animals table
 CREATE TABLE animals (
     id int primary key not null,
-    name varchar(100),
+    name varchar(255),
     date_of_birth date,
     escape_attempts int,
     neutered boolean,
