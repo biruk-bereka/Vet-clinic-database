@@ -41,35 +41,33 @@ After you're finished please remove all the comments and instructions!
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [curriculum-databases-projects-template](#curriculum-databases-projects-template)
+  - [Getting Started](#getting-started)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Vite clinic database\] ](#-vite-clinic-database-)
+  - [🛠 Built WiVth ](#-built-wivth-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Vite clinic database] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+>  Vit-Clinic is a PostgreSQL database project that allows to store animals' information.
 
-**[your_project__name]** is a...
-
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built WiVth <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -77,16 +75,10 @@ After you're finished please remove all the comments and instructions!
 
 <details>
   <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
 </details>
 
 <details>
   <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
 </details>
 
 <details>
@@ -100,11 +92,11 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Create the vit-clinic database]**
+- **[Create the animals table]**
+- **[Inser data in to the table]**
+- **[Querying the database]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +104,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> There is no live version for now.
 
 - [Live Demo Link](<replace-with-your-deployment-URL>)
 
@@ -122,83 +114,35 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> Clone the repository by clicking on the 'Code' button and copy the link.
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+You should have postgreSQL install on your local machine
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:biruk-bereka/Vet-clinic-database.git
 ```
---->
-
 ### Install
 
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+To install postgreSQL go to : [PostgreSQL Downloads](https://www.postgresql.org/download/) and select your operating system.
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, open your psql terminal or pgAdmin and after that you can create the schema, add data and query the database.
 
-<!--
-Example command:
 
 ```sh
-  rails server
+  CREATE DATABASE vet_clinic
 ```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,17 +152,10 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Biruk Bereka**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@biruk-bereka](https://github.com/biruk-bereka)
+- LinkedIn: [birukbereka](https://www.linkedin.com/in/birukbereka/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -226,11 +163,11 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Query and update animals table**
+- [ ] **Query multiple tables**
+- [ ] **Add "join table" for visits**
+- [ ] **Database performance audit**
+- [ ] **Add database schema diagram**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -248,9 +185,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project, please start it!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,25 +193,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+> I would like to thank the Microverse team.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -284,8 +201,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [licensed](./LICENSE) .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
