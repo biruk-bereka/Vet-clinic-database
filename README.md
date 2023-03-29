@@ -48,6 +48,7 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built WiVth ](#-built-wivth-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+    - [New Features](#new-features)
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -97,6 +98,10 @@ After you're finished please remove all the comments and instructions!
 - **[Create the animals table]**
 - **[Inser data in to the table]**
 - **[Querying the database]**
+
+### New Features 
+- **[Query and update animals table]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,7 +168,6 @@ To run the project, open your psql terminal or pgAdmin and after that you can cr
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Query and update animals table**
 - [ ] **Query multiple tables**
 - [ ] **Add "join table" for visits**
 - [ ] **Database performance audit**
