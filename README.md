@@ -98,9 +98,10 @@ After you're finished please remove all the comments and instructions!
 - **[Create the animals table]**
 - **[Inser data in to the table]**
 - **[Querying the database]**
-
-### New Features 
 - **[Query and update animals table]**
+### New Features 
+- **[Query multiple tables]**
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -168,7 +169,6 @@ To run the project, open your psql terminal or pgAdmin and after that you can cr
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Query multiple tables**
 - [ ] **Add "join table" for visits**
 - [ ] **Database performance audit**
 - [ ] **Add database schema diagram**
