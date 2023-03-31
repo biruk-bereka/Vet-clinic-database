@@ -54,4 +54,40 @@ REFERENCES owners(id)
 ON DELETE CASCADE;
 
 
+-- Create a vets table
+CREATE TABLE vets(
+    id int GENERATED ALWAYS AS IDENTITY,
+    name varchar(255) NOT NULL,
+    age int NOT NULL,
+    date_of_graduation date NOT NULL,
+    PRIMARY KEY (id)
+);
 
+CREATE TABLE specializations(
+    id int GENERATED ALWAYS AS IDENTITY,
+    species_id int, 
+    vets_id int, 
+
+    CONSTRAINT species_fk
+    FOREIGN KEY (species_id)
+    REFERENCES species(id), 
+
+    CONSTRAINT vets_fk
+    FOREIGN KEY (vets_id)
+    REFERENCES vets(id)
+);
+
+CREATE TABLE VISITS (
+    id INT GENERATED ALWAYS AS IDENTITY, 
+    animals_id INT, 
+    vets_id INT, 
+    visit_date DATE, 
+
+    CONSTRAINT animals_fk 
+    FOREIGN KEY (animals_id)
+    REFERENCES animals(id), 
+
+    CONSTRAINT vets_fk 
+    FOREIGN KEY (vets_id)
+    REFERENCES vets(id)
+); 

@@ -49,7 +49,7 @@ After you're finished please remove all the comments and instructions!
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
     - [New Features](#new-features)
-  - [� Getting Started ](#-getting-started-)
+  - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
@@ -92,15 +92,14 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-
 - **[Create the vit-clinic database]**
 - **[Create the animals table]**
 - **[Inser data in to the table]**
 - **[Querying the database]**
 - **[Query and update animals table]**
-### New Features 
 - **[Query multiple tables]**
-
+### New Features 
+**[Add "join table" for visits]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -160,7 +159,6 @@ To run the project, open your psql terminal or pgAdmin and after that you can cr
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add "join table" for visits**
 - [ ] **Database performance audit**
 - [ ] **Add database schema diagram**
 
