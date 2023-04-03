@@ -94,3 +94,5 @@ CREATE TABLE VISITS (
 
 -- Add an email column to owners table
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+ALTER TABLE owners ALTER COLUMN age INT NULL;
