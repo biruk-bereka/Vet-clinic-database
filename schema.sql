@@ -96,3 +96,6 @@ CREATE TABLE VISITS (
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 
 ALTER TABLE owners ALTER COLUMN age INT NULL;
+
+-- Create a non claustered index database
+CREATE INDEX visits_asc ON visits(animals_id ASC);
