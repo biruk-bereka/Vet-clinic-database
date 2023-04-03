@@ -103,5 +103,5 @@ CREATE INDEX visits_asc ON visits(animals_id ASC);
 -- Create a non claustered index database
 CREATE INDEX vets_asc ON visits (vets_id asc);
 
-
-
+-- Create a non claustered index database for the owners table
+CREATE INDEX owners_email_asc ON owners(email ASC);
