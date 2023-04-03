@@ -160,5 +160,7 @@ WHERE VETS.NAME = 'Maisy Smith' GROUP BY SPECIES.NAME ORDER BY COUNT(VISITS.*) D
 -- Query visits where animal id is 4
 EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animals_id = 4;
 
--- Query owners table to check if time has decreased
-EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
+EXPLAIN ANALYZE  SELECT * FROM visits where vet_id = 2;
+
+EXPLAIN ANALYZE  SELECT * FROM owners where email = 'owner_18327@mail.com';
+
