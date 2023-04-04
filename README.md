@@ -100,7 +100,7 @@ After you're finished please remove all the comments and instructions!
 - **[Query multiple tables]**
 - **[Add "join table" for visits]**
 ### New Features 
-- **[Database performance audit]**
+- **[Create schema based on diagram]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
