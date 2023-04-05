@@ -91,3 +91,17 @@ CREATE TABLE VISITS (
     FOREIGN KEY (vets_id)
     REFERENCES vets(id)
 ); 
+
+-- Add an email column to owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+ALTER TABLE owners ALTER COLUMN age INT NULL;
+
+-- Create a non claustered index database
+CREATE INDEX visits_animals_asc ON visits(animals_id ASC);
+
+-- Create a non claustered index database
+CREATE INDEX visits_vets_desc ON visits(vets_id DESC);
+
+-- Create a non claustered index database for the owners table
+CREATE INDEX owners_email_asc ON owners(email ASC);

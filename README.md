@@ -98,9 +98,9 @@ After you're finished please remove all the comments and instructions!
 - **[Querying the database]**
 - **[Query and update animals table]**
 - **[Query multiple tables]**
+- **[Add "join table" for visits]**
 ### New Features 
-**[Add "join table" for visits]**
-
+- **[Database performance audit]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,13 +153,17 @@ To run the project, open your psql terminal or pgAdmin and after that you can cr
 - GitHub: [@biruk-bereka](https://github.com/biruk-bereka)
 - LinkedIn: [birukbereka](https://www.linkedin.com/in/birukbereka/)
 
+👤 **Jorge Abrahan**
+
+- GitHub: [@jorgeabrahan](https://github.com/jorgeabrahan)
+- LinkedIn: [jorgesiquenza](https://www.linkedin.com/in/jorge-siguenza/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Database performance audit**
 - [ ] **Add database schema diagram**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
